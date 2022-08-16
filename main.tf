@@ -18,7 +18,7 @@ resource "docker_image" "nginx" {
 
 resource "docker_container" "nginx" {
   image = docker_image.nginx.latest
-  name  = "lab01-terraform-erick"
+  name  = "lab02-terraform-erick"
   ports {
     internal = 80
     external = 82
