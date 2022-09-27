@@ -18,7 +18,7 @@ resource "docker_image" "nginx" {
 
 resource "docker_container" "nginx" {
   image = docker_image.nginx.latest
-  name  = "learn-terraform-docker-container"
+  name  = "brenacruz25/docker"
   ports {
     internal = 80
     external = 81
