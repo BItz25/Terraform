@@ -21,6 +21,6 @@ resource "docker_container" "nginx" {
   name  = "lab02-terraform-erick"
   ports {
     internal = 80
-    external = 82
+    external = 81
   }
 }
